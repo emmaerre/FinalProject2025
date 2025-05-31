@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-<!-- NAVBAR CSS -->
 <style>
 .navbar {
   display: flex;
@@ -25,13 +24,16 @@ title: Home
 }
 </style>
 
-<!-- NAVBAR LINKS -->
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="topic.html">Topic</a>
   <a href="methodology.html">Methodology</a>
   <a href="challenges.html">Challenges</a>
 </div>
+
+# Benvenutə nel mio progetto
+
+Questa è la homepage del mio sito. Da qui puoi navigare tra le sezioni.
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
