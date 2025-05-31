@@ -3,38 +3,6 @@ layout: default
 title: Home
 ---
 
-<style>
-.navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #0366d6;
-  padding: 12px;
-  margin: -20px -20px 30px -20px;
-  border-bottom: 2px solid #ccc;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-}
-.navbar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 20px;
-  font-weight: bold;
-}
-.navbar a:hover {
-  text-decoration: underline;
-}
-</style>
-
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="topic.html">Topic</a>
-  <a href="methodology.html">Methodology</a>
-  <a href="challenges.html">Challenges</a>
-</div>
-
-# Benvenutə nel mio progetto
-
-Questa è la homepage del mio sito. Da qui puoi navigare tra le sezioni.
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
