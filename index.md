@@ -3,32 +3,6 @@ layout: default
 title: Final Project 2025
 ---
 
-<style>
-.navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #0366d6;
-  padding: 10px;
-  margin-bottom: 30px;
-  border-radius: 5px;
-}
-.navbar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-.navbar a:hover {
-  text-decoration: underline;
-}
-</style>
-
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="report.html">Report</a>
-  <a href="about.html">About</a>
-</div>
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
