@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Topic  # Cambia con il nome della sezione
+title: Topic  
 ---
 
 # Topic 
