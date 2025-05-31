@@ -1,6 +1,14 @@
 ---
 layout: default
+title: Final Project 2025
 ---
+
+<!-- MENU -->
+<div style="text-align:center; margin-bottom: 20px;">
+  <a href="index.html" style="margin:0 15px;">Home</a>
+  <a href="report.html" style="margin:0 15px;">Report</a>
+  <a href="about.html" style="margin:0 15px;">About</a>
+</div>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
