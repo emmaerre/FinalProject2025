@@ -18,28 +18,17 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ## About the project
 
-> This project explores how SPARQL, RDF modeling, and Large Language Models (LLMs) can be combined to enrich the ArCo Knowledge Graph, focusing on musical instruments, particularly the trombone.
-We applied a variety of prompting techniques—including few-shot, zero-shot, and chain-of-thought (CoT) prompting—to guide LLMs in producing useful, ontology-compliant triples and structured suggestions for data enrichment.
+This project explores how SPARQL, RDF modeling, and Large Language Models (LLMs) can be combined to enrich the [ArCo Knowledge Graph](https://dati.beniculturali.it/arco/), focusing on musical instruments, particularly the trombone.
 
->
-> When something is important enough, you do it even if the odds are not in your favor.
+We applied a variety of prompting techniques—including zero-shot, few-shot, and chain-of-thought (CoT) prompting—to guide LLMs in producing useful, ontology-compliant triples and structured suggestions for data enrichment.
 
-### Header 3
+## Key objectives 
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+•	Identify and investigate semantic gaps in ArCo’s [Music Heritage section] (https://dati.beniculturali.it/arco/resource/MusicHeritage) 
+•	Enrich instrument entries (like the trombone) with missing classifications, construction techniques, and semantic metadata
+•	Employ [LLMs] (https://en.wikipedia.org/wiki/Large_language_model) to support and automate RDF generation
+•	Demonstrate the value of Chain-of-Thought (CoT) prompting in complex cultural data reasoning
+•	Evaluate limitations when suggested entities are not represented in the knowledge graph
 
 #### Header 4
 
