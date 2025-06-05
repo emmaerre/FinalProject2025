@@ -11,14 +11,17 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs.  We recommend including a README, or a file with information about your project.
 
-# Enriching ArCo: Knowledge Graph Enhancement through LLMs![image](https://github.com/user-attachments/assets/aeb969fa-3399-491e-80db-b5341b096a59)
+# Enriching ArCo: Knowledge Graph Enhancement through LLMs
+-exploring musical instrument and semantic gaps in Cultural Heritage data-
 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## Header 2
+## About the project
 
-> This is a blockquote following a header.
+> This project explores how SPARQL, RDF modeling, and Large Language Models (LLMs) can be combined to enrich the ArCo Knowledge Graph, focusing on musical instruments, particularly the trombone.
+We applied a variety of prompting techniques—including few-shot, zero-shot, and chain-of-thought (CoT) prompting—to guide LLMs in producing useful, ontology-compliant triples and structured suggestions for data enrichment.
+
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
