@@ -27,7 +27,7 @@ We applied a variety of prompting techniques—including zero-shot, few-shot, an
 ## Technologies and techniques 
 
 *	[SPARQL](https://dati.cultura.gov.it/sparql) + [YASGUI](https://yasgui.org/)
-*	RDF / OWL
+*	RDF 
 *	Prompting with [ChatGPT](https://chatgpt.com/g/g-8i7WASBxj-home), [Gemini](https://gemini.google.com/app?hl=it), [DeepSeek](https://www.deepseek.com/en)
    -	Few-shot prompting for RDF triple generation
    -	Zero-shot prompting for idea discovery
