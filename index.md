@@ -3,14 +3,6 @@ layout: default
 title: Home
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs.  We recommend including a README, or a file with information about your project.
-
 # Enriching ArCo: Knowledge Graph Enhancement through LLMs | Exploring musical instrument and semantic gaps in Cultural Heritage data.
 
 
@@ -52,75 +44,19 @@ These instruments were enhanced with:
 *	Construction metadata (e.g., saldatura, rivestimento)
 *	Additional semantic properties based on LLM-guided suggestions
 
-###### Header 6
+## Teamwork and collaboration
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+This project was a collaborative effort carried out by all team members. We worked closely together throughout every phase of the project, from the initial brainstorming to the final data modeling and RDF validation.
+We met regularly—both in person and online via Microsoft Teams—to exchange ideas, solve technical challenges, and align our strategies. Every decision was discussed as a group, and each member contributed actively to both the conceptual and practical aspects of the project.
+The synergy and cooperation among us made it possible to handle a technically complex topic while keeping our workflow organized and inclusive. We are proud of the strong collaboration that shaped the outcome of this work.
 
-### There's a horizontal rule below this.
+## Project team
 
-* * *
+This project was created collaboratively by students of the Master’s Degree in Language, Society and Communication at the University of Bologna: Benedetta Adinolfi, Paola Cambise, Gloria Milazzo, Gaia Milazzo, Francesca Pacini, and Emma Randazzo.
 
-### Here is an unordered list:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
 
 ### Small image
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
