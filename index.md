@@ -37,7 +37,12 @@ We applied a variety of prompting techniques—including zero-shot, few-shot, an
 We enriched two trombones -one by Ruggero Cesare, the other by Leopold Uhlmann— both underrepresented in the original KG structure.
 
 * [Ruggero Cesare’s Trombone](https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html)
+
+  ![](./assets/trombone_di_Ruggero_Cesare.png)
+  
 * [Leopold Uhlmann’s Trombone](https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html)
+  
+  ![](./assets/trombone_di_Uhlmann_Leopold.png)
 
 These instruments were enhanced with:
 *	Explicit classification under musical instrument-related classes
