@@ -12,6 +12,7 @@ There should be whitespace between paragraphs.
 There should be whitespace between paragraphs.  We recommend including a README, or a file with information about your project.
 
 # Enriching ArCo: Knowledge Graph Enhancement through LLMs
+
 Exploring musical instrument and semantic gaps in Cultural Heritage data.
 
 
