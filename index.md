@@ -24,23 +24,33 @@ We applied a variety of prompting techniques—including zero-shot, few-shot, an
 
 ## Key objectives 
 
-•	Identify and investigate semantic **gaps** in ArCo’s [Music Heritage section](https://dati.beniculturali.it/arco/resource/MusicHeritage)   
-•	**Enrich** instrument entries (like the trombone) with missing classifications, construction techniques, and semantic metadata   
-•	Employ [LLMs](https://en.wikipedia.org/wiki/Large_language_model) to support and automate **RDF** generation    
-•	Demonstrate the value of Chain-of-Thought (CoT) prompting in complex cultural data reasoning      
-•	Evaluate limitations when suggested entities are not represented in the knowledge graph   
+* Identify and investigate semantic **gaps** in ArCo’s [Music Heritage section](https://dati.beniculturali.it/arco/resource/MusicHeritage)   
+* **Enrich** instrument entries (like the trombone) with missing classifications, construction techniques, and semantic metadata   
+* Employ [LLMs](https://en.wikipedia.org/wiki/Large_language_model) to support and automate **RDF** generation    
+*	Demonstrate the value of Chain-of-Thought (CoT) prompting in complex cultural data reasoning      
+*	Evaluate limitations when suggested entities are not represented in the knowledge graph   
 
-#### Header 4
+## Technologies and techniques 
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*	[SPARQL](https://dati.cultura.gov.it/sparql) + [YASGUI](https://yasgui.org/)
+*	RDF / OWL
+*	Prompting with [ChatGPT](https://chatgpt.com/g/g-8i7WASBxj-home), [Gemini](https://gemini.google.com/app?hl=it), [DeepSeek](https://www.deepseek.com/en)
+   -	Few-shot prompting for RDF triple generation
+   -	Zero-shot prompting for idea discovery
+   -	Chain-of-Thought (CoT) prompting for structured reasoning
+*	[ArCo Ontology](https://dati.beniculturali.it/lode/extract?lang=it&url=https://raw.githubusercontent.com/ICCD-MiBACT/ArCo/master/ArCo-release/ontologie/arco/arco.owl)
 
-##### Header 5
+## Case Studies
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+We enriched two trombones -one by Ruggero Cesare, the other by Leopold Uhlmann— both underrepresented in the original KG structure.
+
+* [Ruggero Cesare’s Trombone](https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html)
+* [Leopold Uhlmann’s Trombone](https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html)
+
+These instruments were enhanced with:
+*	Explicit classification under musical instrument-related classes
+*	Construction metadata (e.g., saldatura, rivestimento)
+*	Additional semantic properties based on LLM-guided suggestions
 
 ###### Header 6
 
