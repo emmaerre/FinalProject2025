@@ -38,12 +38,12 @@ We enriched two trombones -one by Ruggero Cesare, the other by Leopold Uhlmann�
 
 * [Ruggero Cesare’s Trombone](https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html)
 
-  ![](./assets/trombone_di_Ruggero_Cesare.png)
+  ![](./assets/images/trombone_di_Ruggero_Cesare.png)
 
   
 * [Leopold Uhlmann’s Trombone](https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html)
   
-  ![](./assets/trombone_di_Uhlmann_Leopold.png)
+  ![](./assets/images/trombone_di_Uhlmann_Leopold.png)
 
 These instruments were enhanced with:
 *	Explicit classification under musical instrument-related classes
