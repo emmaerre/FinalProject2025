@@ -5,7 +5,7 @@ title: Home
 
 # Enriching ArCo: Knowledge Graph Enhancement through LLMs 
 
-# | Exploring musical instrument and semantic gaps in Cultural Heritage data|
+# Exploring musical instrument and semantic gaps in Cultural Heritage data
 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
