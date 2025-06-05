@@ -24,11 +24,11 @@ We applied a variety of prompting techniques—including zero-shot, few-shot, an
 
 ## Key objectives 
 
-•	Identify and investigate semantic gaps in ArCo’s [Music Heritage section] (https://dati.beniculturali.it/arco/resource/MusicHeritage) 
-•	Enrich instrument entries (like the trombone) with missing classifications, construction techniques, and semantic metadata
-•	Employ [LLMs] (https://en.wikipedia.org/wiki/Large_language_model) to support and automate RDF generation
-•	Demonstrate the value of Chain-of-Thought (CoT) prompting in complex cultural data reasoning
-•	Evaluate limitations when suggested entities are not represented in the knowledge graph
+•	Identify and investigate semantic gaps in ArCo’s [Music Heritage section](https://dati.beniculturali.it/arco/resource/MusicHeritage)   
+•	Enrich instrument entries (like the trombone) with missing classifications, construction techniques, and semantic metadata   
+•	Employ [LLMs](https://en.wikipedia.org/wiki/Large_language_model) to support and automate RDF generation    
+•	Demonstrate the value of Chain-of-Thought (CoT) prompting in complex cultural data reasoning      
+•	Evaluate limitations when suggested entities are not represented in the knowledge graph   
 
 #### Header 4
 
