@@ -8,15 +8,19 @@ title: Methodology
 Our methodological approach combines traditional SPARQL-based Knowledge Graph exploration with the generative capabilities of [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs), aiming to identify and fill semantic and structural gaps in the [ArCo](http://wit.istc.cnr.it/arco) dataset. The process unfolds across four main phases, each targeting a specific aspect of enrichment. While each step is presented in detail in the dedicated sections, below is a brief overview of the main phases that structured our work:
 
 1. **Gap Identification and Knowledge Graph Exploration**
+
 We explored the ArCo Knowledge Graph to detect missing or underrepresented musical instruments, notably identifying the absence of the trombone within specific ontology classes.
 
 2. **Triple Construction for Missing Classification**
+
 Upon confirming the gap, we created RDF triples to formally link trombones to the appropriate classification within the knowledge graph.
 
 3. **Triple Construction for Construction Techniques and Family Relations**
+
 We further enriched the trombones’ descriptions by adding technical construction details and investigating the presence of related instrument makers.
 
 4. **Triple Construction for Semantic Linking with Hornbostel-Sachs Classification**
+
 Finally, we enhanced the semantic metadata by associating the trombones with the Hornbostel-Sachs classification system, aligning them with an internationally recognized taxonomy.
 
 
@@ -156,6 +160,62 @@ In conclusion, we were able to fill the two gaps that we detected: in the first 
 <div id="step3" class="step-content" style="display:none;">
   <h2>Step 3: Triple Construction for Construction Techniques and Family Relations</h2>
   <p>
+
+<h3>Enriching ArCo with technical construction techniques</h3>
+
+To further enhance the knowledge graph, we investigated technical construction characteristics relevant to trombones, such as the materials or fabrication techniques involved. This step involved zero-shot prompting (asking <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> directly for possible construction techniques without any example).
+
+Based on the LLM-generated suggestions, we manually verified which of the proposed techniques were present in <a href="http://wit.istc.cnr.it/arco">ArCo</a> via SPARQL queries. 
+
+<img src="./assets/images/img19.png" alt="img19">
+
+Among the construction techniques for trombones suggested by <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a>, we selected two that are commonly used for any kind of trombone: welding (saldatura) and coating (rivestimento). We decided to create RDF triples to link <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Cesare’s trombone</a> to these two techniques.
+We made the following query to search the "saldatura” entity in the denotative description "<a href="https://dati.beniculturali.it/lodview-arco/ontology/denotative-description/TechnicalCharacteristic.html">technical characteristics</a>”.
+
+<h4>Query - "saldatura" (welding):</h4> 
+
+<img src="./assets/images/img20.png" alt="img20">
+
+This query returned several entries, among which we selected the generic "<a href="https://dati.beniculturali.it/lodview-arco/resource/TechnicalCharacteristic/saldatura.html">saldatura</a>" technique.
+
+<img src="./assets/images/img21.png" alt="img21">
+
+<img src="./assets/images/img22.png" alt="img22">
+
+<h4>RDF triple for welding</h4>
+
+We created an RDF triple to associate the "<a href="https://dati.beniculturali.it/lodview-arco/resource/TechnicalCharacteristic/saldatura.html">saldatura</a>" technique with <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare’s trombone</a>:
+
+<img src="./assets/images/img23.png" alt="img23">
+
+The triple ensures that "<a href="https://dati.beniculturali.it/lodview-arco/resource/TechnicalCharacteristic/saldatura.html">saldatura</a>" is now displayed under the "material or technique" section of the trombone’s ArCo entry.
+
+We repeated the same steps for the second selected technique (coating), as follows:
+
+<h4>Query - "rivestimento" (welding):</h4> 
+
+<img src="./assets/images/img24.png" alt="img24">
+
+From this query, we selected the generic "<a href="https://dati.beniculturali.it/lodview-arco/resource/TechnicalCharacteristic/rivestimento.html">rivestimento</a>" technique:
+
+<img src="./assets/images/img25.png" alt="img25">
+
+<img src="./assets/images/img26.png" alt="img26">
+
+<h4>RDF triple for coating</h4>
+
+We created another triple linking "<a href="https://dati.beniculturali.it/lodview-arco/resource/TechnicalCharacteristic/rivestimento.html">rivestimento</a>" to <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare’s trombone</a>, similarly enhancing the descriptive detail under its "material or technique" field. 
+
+<img src="./assets/images/img27.png" alt="img27">
+
+
+
+
+
+
+
+
+
 
 
   
