@@ -115,14 +115,11 @@ After identifying the absence of the trombone within specific ArCo classes such 
 To achieve this, we decided to rely on <a href="https://en.wikipedia.org/wiki/Large_language_model">Large Language Models</a> (LLMs) instead of manually constructing the triple. We used the few-shot prompting technique, in which two example RDF triples and SPARQL queries were provided to guide the LLMs’ response.
 We used the same prompt across three different LLMs:
 
-
-•	<a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a>
-
-
-•	<a href="https://gemini.google.com/app?hl=it">Gemini</a>
-
-
-•	<a href="https://www.deepseek.com/en">DeepSeek</a>
+<ul>
+  <li><a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a></li>
+  <li><a href="https://gemini.google.com/app?hl=it">Gemini</a></li>
+  <li><a href="https://www.deepseek.com/en">DeepSeek</a></li>
+</ul>
 
 Prompt: 
 
