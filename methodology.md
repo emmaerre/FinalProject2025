@@ -127,17 +127,20 @@ Prompt:
 
 Each LLM was asked to generate a triple linking the resource <https://w3id.org/arco/resource/HistoricOrArtisticProperty/1500556890.html> to the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a>.
 
-•	Gemini provided a syntactically correct RDF triple based on the examples, without further elaboration or explanation:
+<ul>
+<li>Gemini provided a syntactically correct RDF triple based on the examples, without further elaboration or explanation:
+  
+<img src="./assets/images/img14.png" alt="img14"></li>
+    
+<li>DeepSeek produced a similar response, accurately mimicking the format of the examples:
 
-<img src="./assets/images/img14.png" alt="img14">
+<img src="./assets/images/img15.png" alt="img15"></li>
 
-•	DeepSeek produced a similar response, accurately mimicking the format of the examples:
+<li>ChatGPT provided the triple along with a short explanatory comment, demonstrating understanding of the intended RDF structure:
 
-<img src="./assets/images/img15.png" alt="img15">
+<img src="./assets/images/img16.png" alt="img16"></li>
 
-•	ChatGPT provided the triple along with a short explanatory comment, demonstrating understanding of the intended RDF structure:
-
-<img src="./assets/images/img16.png" alt="img16">
+</ul>
 
 The responses were consistent across models, validating the effectiveness of few-shot prompting for this kind of structured output.
 We used the queries suggested by these LLMs and we inserted one on <a href="v">YASGUI</a>:
