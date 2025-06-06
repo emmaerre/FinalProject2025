@@ -106,7 +106,7 @@ Using Yasgui and the clause CONSTRUCT on SPARQL, we obtained this RDF triple to 
 
 <img src="./assets/images/img12.png" alt="img12">
 
-<h4>•	UsingLLMs</h4>
+<h4>•	Using LLMs</h4>
 
 After identifying the absence of the trombone within specific ArCo classes such as <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">MusicalInstrumentClassification</a>, we proceeded to create RDF triples to enrich the ArCo knowledge graph. In particular, we focused on connecting <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Leopold Uhlmann's trombone</a> to the missing class.
 
@@ -118,7 +118,9 @@ We used the same prompt across three different LLMs:
 
 •	<a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a>
 
+
 •	<a href="https://gemini.google.com/app?hl=it">Gemini</a>
+
 
 •	<a href="https://www.deepseek.com/en">DeepSeek</a>
 
