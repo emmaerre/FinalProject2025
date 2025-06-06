@@ -39,7 +39,7 @@ We began our project by exploring the <a href="http://wit.istc.cnr.it/arco">ArCo
 
 Our first <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> query aimed to retrieve all distinct musical instruments classified under the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class, along with their labels:
 
-<img src="img1" alt="img1">
+<img src="./assets/images/img1.png" alt="img1">
 
 
 </p>
