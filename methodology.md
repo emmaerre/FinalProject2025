@@ -38,6 +38,8 @@ We began our project by exploring the [ArCo](http://wit.istc.cnr.it/arco) Knowle
 
 Our first [SPARQL](https://dati.cultura.gov.it/sparql) query aimed to retrieve all distinct musical instruments classified under the [arco:MusicHeritage](https://w3id.org/arco/ontology/arco/MusicHeritage) class, along with their labels:
 
+  ![img1](./assets/images/img1.png)
+
 
 
   
