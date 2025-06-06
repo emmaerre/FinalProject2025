@@ -28,7 +28,13 @@ Finally, we enhanced the semantic metadata by associating the trombones with the
 
 <div id="step1" class="step-content">
   <h2>Step 1</h2>
-  <p>Contenuto step 1.</p>
+  <p>Contenuto step 1.
+  ciao ciao
+  
+  
+  
+  
+  </p>
 </div>
 
 <div id="step2" class="step-content" style="display:none;">
