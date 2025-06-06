@@ -31,7 +31,7 @@ Finally, we enhanced the semantic metadata by associating the trombones with the
 </div>
 
 <div id="step1" class="step-content">
-  <h2>Step 1</h2>
+  <h2>Step 1:Gap Identification and Knowledge Graph Exploration</h2>
   <p>
   We began our project by exploring the <a href="http://wit.istc.cnr.it/arco">ArCo</a> Knowledge Graph, focusing on the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">Music Heritage</a> section. Our goal was to identify musical instruments documented within the dataset and to investigate whether certain instruments were missing or underrepresented.
 
@@ -40,6 +40,67 @@ Finally, we enhanced the semantic metadata by associating the trombones with the
 Our first <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> query aimed to retrieve all distinct musical instruments classified under the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class, along with their labels:
 
 <img src="./assets/images/img1.png" alt="img1">
+
+This query provided us with a general overview of the musical instruments currently categorized under the Music Heritage class.
+
+
+<h3>Identifying a gap - missing instrument</h3>
+
+We then formulated a second query to verify whether three specific instruments —trombone, trumpet (“tromba”), and violin (“violino”)— were present in the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class. 
+The query used FILTER, REGEX, UNION, and ORDER BY clauses to search for multiple terms simultaneously:
+
+<img src="./assets/images/img2.png" alt="img2">
+
+The results showed that "tromba" and "violino" were both present, but "trombone" returned no matches, indicating a potential gap in the knowledge graph.
+
+To confirm this absence, we executed a focused query that searched only for the term trombone in the same class:
+
+<img src="./assets/images/img3.png" alt="img3">
+
+As expected, the result table was empty, further confirming that the trombone is not represented within the MusicHeritage class:
+
+<img src="./assets/images/img4.png" alt="img4">
+
+
+<h3>Further investigation - other classes</h3>
+
+We expanded our search to see if the term trombone appeared in other relevant classes. A query on the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a> also returned no results:
+
+<img src="./assets/images/img5.png" alt="img5">
+
+<img src="./assets/images/img6.png" alt="img6">
+
+
+However, when we queried the more general class <a href="https://w3id.org/arco/ontology/arco/MovableCulturalProperty">arco:MovableCulturalProperty</a>, which is a superclass of <a href="https://w3id.org/arco/ontology/arco/HistoricOrArtisticProperty">arco:HistoricOrArtisticProperty</a>, we successfully found multiple records associated with trombones:
+
+<img src="./assets/images/img7.png" alt="img7">
+
+<img src="./assets/images/img8.png" alt="img8">
+
+Among the results, we selected two specific trombones as case studies for enrichment:
+•	<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare’s trombone</a> (slide trombone / trombone a coulisse):
+
+<img src="./assets/images/img9.png" alt="img9">
+
+•	<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Leopold Uhlmann’s trombone</a> (slide trombone / trombone a coulisse):
+
+<img src="./assets/images/img10.png" alt="img10">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
