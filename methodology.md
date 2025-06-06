@@ -33,7 +33,7 @@ Finally, we enhanced the semantic metadata by associating the trombones with the
 
 <h3>Gap Identification and Knowledge Graph Exploration</h3>
 
-We began our project by exploring the [ArCo](http://wit.istc.cnr.it/arco) Knowledge Graph, focusing on the [Music Heritage](https://w3id.org/arco/ontology/arco/MusicHeritage) section. Our goal was to identify musical instruments documented within the dataset and to investigate whether certain instruments were missing or underrepresented.
+We began our project by exploring the <a href="http://wit.istc.cnr.it/arco" target="_blank" rel="noopener noreferrer">ArCo</a> Knowledge Graph, focusing on the [Music Heritage](https://w3id.org/arco/ontology/arco/MusicHeritage) section. Our goal was to identify musical instruments documented within the dataset and to investigate whether certain instruments were missing or underrepresented.
 
 ### Initial query - listing musical instrument
 
