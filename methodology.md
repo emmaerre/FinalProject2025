@@ -30,6 +30,7 @@ Finally, we enhanced the semantic metadata by associating the trombones with the
   <button onclick="showStep('step4')">Step 4</button>
 </div>
 
+
 <div id="step1" class="step-content">
   <h2>Step 1: Gap Identification and Knowledge Graph Exploration</h2>
   <p>
