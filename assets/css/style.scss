@@ -6,3 +6,10 @@
 body {
   text-align: justify;
 }
+
+.spaced-img {
+  display: block;
+  margin: 20px auto;     /* 20px sopra e sotto, centrata orizzontalmente */
+  max-width: 100%;       /* per rendere l'immagine responsive */
+  height: auto;          /* mantiene il rapporto originale */
+}
