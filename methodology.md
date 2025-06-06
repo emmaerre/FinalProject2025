@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9cd16fc8-4e0d-4952-aee6-e1691f9b8863)---
+---
 layout: default
 title: Methodology  
 ---
