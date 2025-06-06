@@ -27,6 +27,7 @@ Finally, we enhanced the semantic metadata by associating the trombones with the
 </div>
 
 <div id="step1" class="step-content">
+  
   <h2>Step 1</h2>
   <p>
 
@@ -41,12 +42,7 @@ Our first [SPARQL](https://dati.cultura.gov.it/sparql) query aimed to retrieve a
   ![img1](./assets/images/img1.png)
 
 
-
-  
-  
-  
-  
-  </p>
+</p>
 </div>
 
 <div id="step2" class="step-content" style="display:none;">
