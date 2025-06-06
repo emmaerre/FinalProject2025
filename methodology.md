@@ -149,38 +149,32 @@ We used the queries suggested by these LLMs and we inserted one on <a href="v">Y
 
 In conclusion, we were able to fill the two gaps that we detected: in the first case, we filled it using the CONSTRUCT clause on SPARQL, while in the second case, we used the support of LLMs. In both cases, the RDF triples were correct.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  </p>
 </div>
 
 
 <div id="step3" class="step-content" style="display:none;">
-  <h2>Step 3</h2>
-  <p>Contenuto di Step 3...</p>
+  <h2>Step 3: Triple Construction for Construction Techniques and Family Relations</h2>
+  <p>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </p>
 </div>
 
 
