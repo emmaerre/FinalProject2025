@@ -40,53 +40,40 @@ Finally, we enhanced the semantic metadata by associating the trombones with the
 
 Our first <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> query aimed to retrieve all distinct musical instruments classified under the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class, along with their labels:
 
-
 <img src="./assets/images/img1.png" alt="img1">
 
-
 This query provided us with a general overview of the musical instruments currently categorized under the Music Heritage class.
-
 
 <h3>Identifying a gap - missing instrument</h3>
 
 We then formulated a second query to verify whether three specific instruments —trombone, trumpet (“tromba”), and violin (“violino”)— were present in the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class. 
 The query used FILTER, REGEX, UNION, and ORDER BY clauses to search for multiple terms simultaneously:
 
-
 <img src="./assets/images/img2.png" alt="img2">
-
 
 The results showed that "tromba" and "violino" were both present, but "trombone" returned no matches, indicating a potential gap in the knowledge graph.
 
 To confirm this absence, we executed a focused query that searched only for the term trombone in the same class:
 
-
 <img src="./assets/images/img3.png" alt="img3">
-
 
 As expected, the result table was empty, further confirming that the trombone is not represented within the MusicHeritage class:
 
-
 <img src="./assets/images/img4.png" alt="img4">
-
 
 <h3>Further investigation - other classes</h3>
 
 We expanded our search to see if the term trombone appeared in other relevant classes. A query on the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a> also returned no results:
 
-
 <img src="./assets/images/img5.png" alt="img5">
 
 <img src="./assets/images/img6.png" alt="img6">
 
-
 However, when we queried the more general class <a href="https://w3id.org/arco/ontology/arco/MovableCulturalProperty">arco:MovableCulturalProperty</a>, which is a superclass of <a href="https://w3id.org/arco/ontology/arco/HistoricOrArtisticProperty">arco:HistoricOrArtisticProperty</a>, we successfully found multiple records associated with trombones:
-
 
 <img src="./assets/images/img7.png" alt="img7">
 
 <img src="./assets/images/img8.png" alt="img8">
-
 
 Among the results, we selected two specific trombones as case studies for enrichment:
 •	<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare’s trombone</a> (slide trombone / trombone a coulisse):
@@ -96,35 +83,96 @@ Among the results, we selected two specific trombones as case studies for enrich
 •	<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Leopold Uhlmann’s trombone</a> (slide trombone / trombone a coulisse):
 
 <img src="./assets/images/img10.png" alt="img10">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
+ 
   </p>
 </div>
 
 
 <div id="step2" class="step-content" style="display:none;">
-  <h2>Step 2</h2>
-  <p>Contenuto di Step 2...</p>
+  <h2>Step 2: Triple Construction for Missing Classification</h2>
+  <p>
+
+ <h3>Gap confirmation and enrichment proposal</h3>
+
+ <h4>using CONSTRUCT Sparql</h4>
+
+We verified that these instruments —despite clearly being trombones— were not classified under <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a>. This confirmed the presence of a semantic and structural gap in the ontology.
+
+To address this, we proposed RDF triples to link these resources explicitly to the <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a> class , enriching the dataset by making these associations machine-readable and formally integrated.
+
+<img src="./assets/images/img11.png" alt="img11">
+
+Using Yasgui and the clause CONSTRUCT on SPARQL, we obtained this RDF triple to connect Cesare’s trombone to the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">MusicalInstrumentClassification</a>:
+
+<img src="./assets/images/img12.png" alt="img12">
+
+<h4>usingLLMs</h4>
+
+After identifying the absence of the trombone within specific ArCo classes such as <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">MusicalInstrumentClassification</a>, we proceeded to create RDF triples to enrich the ArCo knowledge graph. In particular, we focused on connecting <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Leopold Uhlmann's trombone</a> to the missing class.
+
+<h5>RDF Triple creation via few-shot prompting</h5>
+
+To achieve this, we decided to rely on <a href="https://en.wikipedia.org/wiki/Large_language_model">Large Language Models</a> (LLMs) instead of manually constructing the triple. We used the few-shot prompting technique, in which two example RDF triples and SPARQL queries were provided to guide the LLMs’ response.
+We used the same prompt across three different LLMs:
+
+
+•	<a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a>
+
+•	<a href="https://gemini.google.com/app?hl=it">Gemini</a>
+
+•	<a href="https://www.deepseek.com/en">DeepSeek</a>
+
+Prompt: 
+
+<img src="./assets/images/img13.png" alt="img13">
+
+Each LLM was asked to generate a triple linking the resource <https://w3id.org/arco/resource/HistoricOrArtisticProperty/1500556890.html> to the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a>.
+
+•	Gemini provided a syntactically correct RDF triple based on the examples, without further elaboration or explanation:
+
+<img src="./assets/images/img14.png" alt="img14">
+
+•	DeepSeek produced a similar response, accurately mimicking the format of the examples:
+
+<img src="./assets/images/img15.png" alt="img15">
+
+•	ChatGPT provided the triple along with a short explanatory comment, demonstrating understanding of the intended RDF structure:
+
+<img src="./assets/images/img16.png" alt="img16">
+
+The responses were consistent across models, validating the effectiveness of few-shot prompting for this kind of structured output.
+We used the queries suggested by these LLMs and we inserted one on <a href="v">YASGUI</a>:
+
+<img src="./assets/images/img17.png" alt="img17">
+
+In conclusion, we were able to fill the two gaps that we detected: in the first case, we filled it using the CONSTRUCT clause on SPARQL, while in the second case, we used the support of LLMs. In both cases, the RDF triples were correct.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </p>
 </div>
 
 
