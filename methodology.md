@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/9cd16fc8-4e0d-4952-aee6-e1691f9b8863)---
 layout: default
 title: Methodology  
 ---
@@ -208,39 +208,50 @@ We created another triple linking "<a href="https://dati.beniculturali.it/lodvie
 
 <img src="./assets/images/img27.png" alt="img27">
 
+<h3>Investigating the Uhlmann Family</h3>
 
+To further investigate the historical and cultural relevance of the Uhlmann family, we consulted external sources such as <a href="http://www.williampetit.com/16/cor-viennois-uhlmann/vienna-horn-uhlmann.htm">William Petit’s documentation</a>, which highlight the important role played by this family in the 19th-century Viennese music scene, particularly in the field of instrument manufacturing.
+We aimed to verify whether other members of the Uhlmann family (besides Leopold) were represented within the ArCo knowledge graph.
 
+<h4>Zero-Shot Prompting with LLMs</h4>
 
+Using a zero-shot prompting approach, we asked <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> if there were other musical instrument makers from the Uhlmann family. The LLM listed a few names, such as Carl Uhlmann and Johann Uhlmann, based on its general knowledge base. However, this information alone was not sufficient—we needed to validate it against the ArCo knowledge graph. 
 
+<img src="./assets/images/img28.png" alt="img28">
 
+<h4>SPARQL query for Uhlmann family members</h4>
 
+To check for the presence of these individuals in <a href="http://wit.istc.cnr.it/arco">ArCo</a>, we designed the following query using the keyword OPTIONAL to also capture partial or incomplete records:
 
+<img src="./assets/images/img31.png" alt="img31">
 
+<h4>Results and limitations</h4>
 
+The query returned only four instances, all of which referred to Leopold Uhlmann. No other members of the Uhlmann family appeared in the ArCo dataset. 
+Consequently:
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+<ul>
+  <li>We were unable to construct RDF triples that would relate Leopold to any additional family members</li>
+  <li>Despite LLM-generated suggestions pointing to historical relevance, this information could not be validated using the available structured data in ArCo</li>
+  <li>We could not enrich Leopold’s personal ArCo page with familial links, as these individuals are not represented in the knowledge graph</li>
+</ul>
+
+<img src="./assets/images/img32.png" alt="img32">
+
+This represents one of the core challenges of the project: while LLMs can generate plausible and historically-informed content, their outputs require careful validation when used to enrich structured, curated knowledge graphs. Without supporting entities in the target KG, no direct enrichment is possible.
+
   </p>
 </div>
 
-
 <div id="step4" class="step-content" style="display:none;">
-  <h2>Step 4</h2>
-  <p>Contenuto di Step 4...</p>
+  <h2>Step 4: Triple Construction for Semantic Linking with Hornbostel-Sachs Classification</h2>
+  <p>
+
+
+
+
+    
+  </p>
 </div>
 
 
