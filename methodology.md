@@ -94,7 +94,7 @@ Among the results, we selected two specific trombones as case studies for enrich
 
  <h3>Gap confirmation and enrichment proposal</h3>
 
- <h4>using CONSTRUCT Sparql</h4>
+ <h4>• Using CONSTRUCT Sparql</h4>
 
 We verified that these instruments —despite clearly being trombones— were not classified under <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a>. This confirmed the presence of a semantic and structural gap in the ontology.
 
@@ -106,11 +106,11 @@ Using Yasgui and the clause CONSTRUCT on SPARQL, we obtained this RDF triple to 
 
 <img src="./assets/images/img12.png" alt="img12">
 
-<h4>usingLLMs</h4>
+<h4>•	UsingLLMs</h4>
 
 After identifying the absence of the trombone within specific ArCo classes such as <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">MusicalInstrumentClassification</a>, we proceeded to create RDF triples to enrich the ArCo knowledge graph. In particular, we focused on connecting <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Leopold Uhlmann's trombone</a> to the missing class.
 
-<h5>RDF Triple creation via few-shot prompting</h5>
+<h4>RDF Triple creation via few-shot prompting</h4>
 
 To achieve this, we decided to rely on <a href="https://en.wikipedia.org/wiki/Large_language_model">Large Language Models</a> (LLMs) instead of manually constructing the triple. We used the few-shot prompting technique, in which two example RDF triples and SPARQL queries were provided to guide the LLMs’ response.
 We used the same prompt across three different LLMs:
