@@ -19,92 +19,74 @@ We further enriched the trombones’ descriptions by adding technical constructi
 4. **Triple Construction for Semantic Linking with Hornbostel-Sachs Classification**
 Finally, we enhanced the semantic metadata by associating the trombones with the Hornbostel-Sachs classification system, aligning them with an internationally recognized taxonomy.
 
-<nav id="step-menu">
-  <button onclick="showStep('step1')">1. Gap Identification</button>
-  <button onclick="showStep('step2')">2. First RDF Enrichment</button>
-  <button onclick="showStep('step3')">3. Second RDF Enrichment</button>
-  <button onclick="showStep('step4')">4. Semantic Enrichment</button>
-</nav>
-
-<style>
-  #step-menu {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  #step-menu button {
-    margin: 0 10px;
-    padding: 8px 16px;
-    border: none;
-    background-color: #0366d6;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .step-content {
-    display: none;
-  }
-
-  .step-content:first-of-type {
-    display: block;
-  }
-</style>
 
 
+
+
+<div class="step-menu">
+  <button onclick="showStep('step1')">Step 1</button>
+  <button onclick="showStep('step2')">Step 2</button>
+  <button onclick="showStep('step3')">Step 3</button>
+  <button onclick="showStep('step4')">Step 4</button>
+</div>
 
 <div id="step1" class="step-content">
+  <h2>Step 1</h2>
+  <p>
+  We began our project by exploring the <a href="http://wit.istc.cnr.it/arco">ArCo</a> Knowledge Graph, focusing on the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">Music Heritage</a> section. Our goal was to identify musical instruments documented within the dataset and to investigate whether certain instruments were missing or underrepresented.
 
-### Step 1 – Gap Identification and Knowledge Graph Exploration
+<h3>Initial query - listing musical instrument</h3>
 
-We began our project by exploring the [ArCo](http://wit.istc.cnr.it/arco) Knowledge Graph, focusing on the [Music Heritage](https://w3id.org/arco/ontology/arco/MusicHeritage) section.
+Our first <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> query aimed to retrieve all distinct musical instruments classified under the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class, along with their labels:
 
-Our goal was to identify musical instruments documented within the dataset and to investigate whether certain instruments were missing or underrepresented — notably the trombone.
+<img src="./assets/images/img1.png" alt="img1">
 
-#### Initial SPARQL Query
+![Uploading image.png…]()
 
-Our first [SPARQL](https://dati.cultura.gov.it/sparql) query aimed to retrieve all distinct musical instruments classified under the `arco:MusicHeritage` class:
-
-![img1](./assets/images/img1.png)
-
+  
+  
+  
+  </p>
 </div>
-
-</p>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div id="step2" class="step-content" style="display:none;">
   <h2>Step 2</h2>
-  <p>Contenuto step 2.</p>
+  <p>Contenuto di Step 2...</p>
 </div>
+
 
 <div id="step3" class="step-content" style="display:none;">
   <h2>Step 3</h2>
-  <p>Contenuto step 3.</p>
+  <p>Contenuto di Step 3...</p>
 </div>
+
 
 <div id="step4" class="step-content" style="display:none;">
   <h2>Step 4</h2>
-  <p>Contenuto step 4.</p>
+  <p>Contenuto di Step 4...</p>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script>
 function showStep(id) {
