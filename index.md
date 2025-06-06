@@ -12,13 +12,13 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ## About the project
 
-This project explores how SPARQL, RDF modeling, and Large Language Models (LLMs) can be combined to enrich the [ArCo Knowledge Graph](https://dati.beniculturali.it/arco/), focusing on musical instruments, particularly the trombone.
+This project explores how SPARQL, RDF modeling, and Large Language Models (LLMs) can be combined to enrich the [ArCo Knowledge Graph](http://wit.istc.cnr.it/arco), focusing on musical instruments, particularly the trombone.
 
 We applied a variety of prompting techniques—including zero-shot, few-shot, and chain-of-thought (CoT) prompting—to guide LLMs in producing useful, ontology-compliant triples and structured suggestions for data enrichment.
 
 ## Key objectives 
 
-* Identify and investigate semantic **gaps** in ArCo’s [Music Heritage section](https://dati.beniculturali.it/arco/resource/MusicHeritage)   
+* Identify and investigate semantic **gaps** in ArCo’s [Music Heritage section](https://w3id.org/arco/ontology/arco/MusicHeritage)  
 * **Enrich** instrument entries (like the trombone) with missing classifications, construction techniques, and semantic metadata   
 * Employ [LLMs](https://en.wikipedia.org/wiki/Large_language_model) to support and automate **RDF** generation    
 *	Demonstrate the value of Chain-of-Thought (CoT) prompting in complex cultural data reasoning      
