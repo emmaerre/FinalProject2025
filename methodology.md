@@ -41,7 +41,7 @@ Our first <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> query aimed to
 
 <img src="./assets/images/img1.png" alt="img1">
 
-<img src="img/my_image.jpg" alt="Descrizione dell'immagine" />
+
 
   
   
