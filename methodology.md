@@ -275,6 +275,54 @@ These were validated using <a href="https://yasgui.org/">YASGUI</a>, and the res
 
 <img src="./assets/images/img36.png" alt="img36">
 
+<h3>Enriching with Descriptive Properties: Chain-of-Thought LLM Prompting</h3>
+
+To go further, we asked three LLMs (<a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a>, <a href="https://gemini.google.com/app?hl=it">Gemini</a>, <a href="https://www.deepseek.com/en">DeepSeek</a>) how we could enrich the existing connections. Using a chain-of-thought prompting strategy, we elicited detailed suggestions for further properties related to the Hornbostel-Sachs class.
+
+<img src="./assets/images/img37.png" alt="img37">
+
+We applied the same prompt on <a href="https://gemini.google.com/app?hl=it">Gemini</a> and this is the answer:
+
+<img src="./assets/images/img38.png" alt="img38">
+
+<a href="https://www.deepseek.com/en">DeepSeek</a>’s answer: 
+
+<img src="./assets/images/img39.png" alt="img39">
+
+From the three answers, ChatGPT’s suggestion was selected because:
+
+<ul>
+  <li>It aligned more closely with ArCo’s formal ontology</li>
+  <li>t included properties that exist within the ArCo schema</li>
+</ul>
+
+<h3>RDF Triples: Adding Hornbostel-Sachs Metadata</h3>
+
+Following this model, we created RDF triples that associate each trombone (Uhlmann and Cesare) with these three properties, enriching their metadata in the KG.
+These triples were also tested and validated through <a href="https://yasgui.org/">YASGUI</a>, ensuring that the structure conforms to the expected ArCo ontology standards.
+Uhlmann’s triple:
+
+<img src="./assets/images/img40.png" alt="img40">
+
+Cesare’s triple:
+
+<img src="./assets/images/img41.png" alt="img41">
+
+
+By linking both trombones to Hornbostel-Sachs classifications—first at the class level, and then at the attribute level— we added rich semantic metadata that enhances their discoverability and interoperability within ArCo and beyond.
+This step showcases a best practice in cultural heritage data enrichment, combining:
+
+<ul>
+  <li>LLM-driven insight</li>
+  <li>ontology-aligned RDF modeling</li>
+  <li>verifiable SPARQL querying</li>
+</ul>
+
+
+
+
+
+
 
 
 
