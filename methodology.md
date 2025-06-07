@@ -247,6 +247,37 @@ This represents one of the core challenges of the project: while LLMs can genera
   <h2>Step 4: Triple Construction for Semantic Linking with Hornbostel-Sachs Classification</h2>
   <p>
 
+To further enhance the semantic description of the two trombones under study (those crafted by Leopold Uhlmann and Ruggero Cesare), we decided to associate them with a subclass of <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">MusicalInstrumentClassification</a>: the internationally recognized <a href="https://w3id.org/arco/ontology/arco/HornbostelSachsClassification">Hornbostel-Sachs classification</a>.
+
+<h3>LLM support – zero-shot prompting</h3>
+
+As a first step, we used <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> with a zero-shot prompting technique to obtain information about the <a href="https://w3id.org/arco/ontology/arco/HornbostelSachsClassification">Hornbostel-Sachs classification</a>. We specified the kind of trombone (slide trombone), as we found this information during our research. The LLM provided a detailed explanation of this classification system, including its typical structure:
+
+<img src="./assets/images/img33.png" alt="img33">
+
+<h3>RDF triples: basic association with the Hornbostel-Sachs Class</h3>
+
+We created two RDF triples to directly associate each trombone with the Hornbostel-Sachs classification class (<a href="https://w3id.org/arco/ontology/arco/HornbostelSachsClassification">arco:HornbostelSachsClassification</a>):
+
+<ul>
+  <li><a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Cesare's trombone</a></li> &rarr; <a href="https://w3id.org/arco/ontology/arco/HornbostelSachsClassification">arco:HornbostelSachsClassification</a>
+
+<li><a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Uhlmann’s trombone</a></li> &rarr; <a href="https://w3id.org/arco/ontology/arco/HornbostelSachsClassification">arco:HornbostelSachsClassification</a>
+</ul>
+
+These were validated using <a href="https://yasgui.org/">YASGUI</a>, and the results showed correctly formed triples linking each instrument to the classification system. 
+
+<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Uhlmann’s trombone</a>:
+
+<img src="./assets/images/img35.png" alt="img35">
+
+<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Cesare's trombone</a>:
+
+<img src="./assets/images/img36.png" alt="img36">
+
+
+
+
 
 
 
