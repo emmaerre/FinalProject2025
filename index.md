@@ -5,11 +5,11 @@ title: Home
 
 
 
-<h class="centered-text"># Enriching ArCo: Knowledge Graph Enhancement through LLMs 
+<h1 style="text-align: center;">Enriching ArCo: Knowledge Graph Enhancement through LLMs</h1>
 
- Exploring musical instrument and semantic gaps in Cultural Heritage data</h>
+<h1 style="text-align: center;">Exploring musical instrument and semantic gaps in Cultural Heritage data</h1>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
 
 ## About the project
 
