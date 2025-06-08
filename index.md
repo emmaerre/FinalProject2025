@@ -34,6 +34,7 @@ We applied a variety of prompting techniques—including zero-shot, few-shot, an
    -	Zero-shot prompting for idea discovery
    -	Chain-of-Thought (CoT) prompting for structured reasoning
 *	[ArCo Ontology](https://dati.beniculturali.it/lode/extract?lang=it&url=https://raw.githubusercontent.com/ICCD-MiBACT/ArCo/master/ArCo-release/ontologie/arco/arco.owl)
+*	[GitHub](https://github.com/))
 
 ## Case Studies
 
