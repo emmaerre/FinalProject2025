@@ -23,14 +23,3 @@ The overall workflow—from <a href="https://dati.cultura.gov.it/sparql">SPARQL<
 - ## Conclusion
 The challenges faced throughout this project highlighted both the promise and the limitations of combining <a href="https://en.wikipedia.org/wiki/Large_language_model">LLMs</a> with<a href="https://en.wikipedia.org/wiki/Semantic_Web">Semantic Web</a> technologies. While the potential for semi-automated knowledge graph enrichment is substantial, realizing it demands a deep understanding of both the domain and the models involved. Each difficulty encountered became an opportunity to refine our methods and better understand how to build robust, reliable, and semantically accurate systems for future work.
 
-
-
-
-
-
-
-
-- **Elenchi**
-- [Link](https://esempio.com)
-- ![Immagine](image.png)
-![image](https://github.com/user-attachments/assets/388265d0-b2dc-4059-a480-0bd4b3849fa3)
