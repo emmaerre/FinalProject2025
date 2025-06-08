@@ -30,9 +30,9 @@ We applied a variety of prompting techniques—including zero-shot, few-shot, an
 *	[SPARQL](https://dati.cultura.gov.it/sparql) + [YASGUI](https://yasgui.org/)
 *	RDF 
 *	Prompting with [ChatGPT](https://chatgpt.com/g/g-8i7WASBxj-home), [Gemini](https://gemini.google.com/app?hl=it), [DeepSeek](https://www.deepseek.com/en)
-   -	Few-shot prompting for RDF triple generation
-   -	Zero-shot prompting for idea discovery
-   -	Chain-of-Thought (CoT) prompting for structured reasoning
+   * Few-shot prompting for RDF triple generation
+   * Zero-shot prompting for idea discovery
+   * Chain-of-Thought (CoT) prompting for structured reasoning
 *	[ArCo Ontology](https://dati.beniculturali.it/lode/extract?lang=it&url=https://raw.githubusercontent.com/ICCD-MiBACT/ArCo/master/ArCo-release/ontologie/arco/arco.owl)
 *	[GitHub](https://github.com/))
 
