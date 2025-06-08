@@ -60,7 +60,7 @@ The synergy and cooperation among us made it possible to handle a technically co
 
 ## Project team
 
-This project was created collaboratively by students of the Master’s Degree in Language, Society and Communication at the University of Bologna: Benedetta Adinolfi, Paola Cambise Ciofani, Gloria Milazzo, Gaia Milazzo, Francesca Pacini, and Emma Randazzo.
+This project was created collaboratively by students of the Master’s Degree in Language, Society and Communication at the University of Bologna: Benedetta Adinolfi, Paola Cambise Ciofani, Gloria Milazzo, Gaia Milazzo, Francesca Pacini, Emma Randazzo.
 
 
 
