@@ -3,10 +3,11 @@ layout: default
 title: Home
 ---
 
-# Enriching ArCo: Knowledge Graph Enhancement through LLMs 
 
-# Exploring musical instrument and semantic gaps in Cultural Heritage data
 
+<h class="centered-text"># Enriching ArCo: Knowledge Graph Enhancement through LLMs 
+
+ Exploring musical instrument and semantic gaps in Cultural Heritage data</h>
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
@@ -61,10 +62,4 @@ The synergy and cooperation among us made it possible to handle a technically co
 ## Project team
 
 This project was created collaboratively by students of the Master’s Degree in Language, Society and Communication at the University of Bologna: Benedetta Adinolfi, Paola Cambise Ciofani, Gloria Milazzo, Gaia Milazzo, Francesca Pacini, Emma Randazzo.
-
-
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
