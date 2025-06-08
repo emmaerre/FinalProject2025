@@ -3,7 +3,7 @@ layout: default
 title: Topic  
 ---
 
-## Topic 
+# Topic 
 
 This project explores the intersection of language technologies and semantic web tools in the context of cultural heritage data. After evaluating different areas of the [ArCo knowledge graph](https://dati.beniculturali.it/arco/), we chose to focus on the [Music Heritage](https://w3id.org/arco/ontology/arco/MusicHeritage) and [Musical Instrument Classification](https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification) sections. This domain offered a promising ground for identifying content gaps and developing meaningful strategies for data enrichment.
 
