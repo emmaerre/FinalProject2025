@@ -107,7 +107,7 @@ To address this, we proposed RDF triples to link these resources explicitly to t
 
 <img src="./assets/images/img11.png" alt="img11">
 
-Using Yasgui and the clause CONSTRUCT on SPARQL, we obtained this RDF triple to connect Cesare’s trombone to the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">MusicalInstrumentClassification</a>:
+Using <a href="https://yasgui.org/">YASGUI</a> and the clause CONSTRUCT on SPARQL, we obtained this RDF triple to connect Cesare’s trombone to the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">MusicalInstrumentClassification</a>:
 
 <img src="./assets/images/img12.png" alt="img12">
 
@@ -148,7 +148,7 @@ Each LLM was asked to generate a triple linking the resource <https://w3id.org/a
 </ul>
 
 The responses were consistent across models, validating the effectiveness of few-shot prompting for this kind of structured output.
-We used the queries suggested by these LLMs and we inserted one on <a href="v">YASGUI</a>:
+We used the queries suggested by these LLMs and we inserted one on <a href="https://yasgui.org/">YASGUI</a>:
 
 <img src="./assets/images/img17.png" alt="img17">
 
