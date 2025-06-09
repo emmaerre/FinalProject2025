@@ -11,15 +11,15 @@ Our methodological approach combines traditional SPARQL-based Knowledge Graph ex
 
 We explored the ArCo Knowledge Graph to detect missing or underrepresented musical instruments, notably identifying the absence of the trombone within specific ontology classes.
 
-2. **Triple Construction for Missing Classification**
+1. **Triple Construction for Missing Classification**
 
 Upon confirming the gap, we created RDF triples to formally link trombones to the appropriate classification within the knowledge graph.
 
-3. **Triple Construction for Construction Techniques and Family Relations**
+1. **Triple Construction for Construction Techniques and Family Relations**
 
 We further enriched the trombones’ descriptions by adding technical construction details and investigating the presence of related instrument makers.
 
-4. **Triple Construction for Semantic Linking with Hornbostel-Sachs Classification**
+1. **Triple Construction for Semantic Linking with Hornbostel-Sachs Classification**
 
 Finally, we enhanced the semantic metadata by associating the trombones with the Hornbostel-Sachs classification system, aligning them with an internationally recognized taxonomy.
 
