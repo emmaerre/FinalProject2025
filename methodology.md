@@ -193,7 +193,7 @@ The triple ensures that "<a href="https://dati.beniculturali.it/lodview-arco/res
 
 We repeated the same steps for the second selected technique (coating), as follows:
 
-<h4>Query - "rivestimento" (welding):</h4> 
+<h4>Query - "rivestimento" (coating):</h4> 
 
 <img src="./assets/images/img24.png" alt="img24">
 
