@@ -80,6 +80,7 @@ However, when we queried the more general class <a href="https://w3id.org/arco/o
 <img src="./assets/images/img8.png" alt="img8">
 
 Among the results, we selected two specific trombones as case studies for enrichment:
+
 •	<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare’s trombone</a> (slide trombone / trombone a coulisse):
 
 <img src="./assets/images/img9.png" alt="img9">
