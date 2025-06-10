@@ -8,21 +8,21 @@ title: Methodology
 Our methodological approach combines traditional SPARQL-based Knowledge Graph exploration with the generative capabilities of [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs), aiming to identify and fill semantic and structural gaps in the [ArCo](http://wit.istc.cnr.it/arco) dataset. The process unfolds across four main phases, each targeting a specific aspect of enrichment. While each step is presented in detail in the dedicated sections, below is a brief overview of the main phases that structured our work:
 
 <ol> 
-<li>**Gap Identification and Knowledge Graph Exploration**
+<li><b>Gap Identification and Knowledge Graph Exploration</b></li>
 
-We explored the ArCo Knowledge Graph to detect missing or underrepresented musical instruments, notably identifying the absence of the trombone within specific ontology classes.</li>
+We explored the ArCo Knowledge Graph to detect missing or underrepresented musical instruments, notably identifying the absence of the trombone within specific ontology classes.
 
-<li>**Triple Construction for Missing Classification**
+<li><b>Triple Construction for Missing Classification</b></li>
 
-Upon confirming the gap, we created RDF triples to formally link trombones to the appropriate classification within the knowledge graph.</li>
+Upon confirming the gap, we created RDF triples to formally link trombones to the appropriate classification within the knowledge graph.
 
-<li>**Triple Construction for Construction Techniques and Family Relations**
+<li><b>Triple Construction for Construction Techniques and Family Relations</b></li>
 
-We further enriched the trombones’ descriptions by adding technical construction details and investigating the presence of related instrument makers.</li>
+We further enriched the trombones’ descriptions by adding technical construction details and investigating the presence of related instrument makers.
 
-<li>**Triple Construction for Semantic Linking with Hornbostel-Sachs Classification**
+<li><b>Triple Construction for Semantic Linking with Hornbostel-Sachs Classification</b></li>
 
-Finally, we enhanced the semantic metadata by associating the trombones with the Hornbostel-Sachs classification system, aligning them with an internationally recognized taxonomy.</li>
+Finally, we enhanced the semantic metadata by associating the trombones with the Hornbostel-Sachs classification system, aligning them with an internationally recognized taxonomy.
 
 </ol>
 
