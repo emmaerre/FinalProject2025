@@ -143,7 +143,7 @@ Each LLM was asked to generate a triple linking the resource <https://w3id.org/a
 
 <img src="./assets/images/img15.png" alt="img15"></li>
 
-<li>ChatGPT provided the triple along with a short explanatory comment, demonstrating understanding of the intended RDF structure:
+<li>ChatGPT provided a triple based on the examples:
 
 <img src="./assets/images/img16.png" alt="img16"></li>
 
