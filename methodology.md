@@ -269,13 +269,13 @@ We created two RDF triples to directly associate each trombone with the Hornbost
 These were validated using <a href="https://yasgui.org/">YASGUI</a>, and the results showed correctly formed triples linking each instrument to the classification system. 
 
 <ul>
-<li><a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Uhlmann’s trombone</a>:</li>
-
-<img src="./assets/images/img35.png" alt="img35">
-
 <li><a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Cesare's trombone</a>:</li>
 
 <img src="./assets/images/img36.png" alt="img36">
+
+<li><a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Uhlmann’s trombone</a>:</li>
+
+<img src="./assets/images/img35.png" alt="img35">
  </ul>
  
 <h3>Enriching with Descriptive Properties: Chain-of-Thought LLM Prompting</h3>
