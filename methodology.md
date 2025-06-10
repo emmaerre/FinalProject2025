@@ -305,14 +305,13 @@ Following this model, we created RDF triples that associate each trombone (Uhlma
 These triples were also tested and validated through <a href="https://yasgui.org/">YASGUI</a>, ensuring that the structure conforms to the expected ArCo ontology standards.
 
 <ul>
-<li>Uhlmann’s triple:</li>
-
-<img src="./assets/images/img40.png" alt="img40">
-
 <li>Cesare’s triple:</li>
 
 <img src="./assets/images/img41.png" alt="img41">
 
+<li>Uhlmann’s triple:</li>
+
+<img src="./assets/images/img40.png" alt="img40">
 </ul>
 
 By linking both trombones to Hornbostel-Sachs classifications—first at the class level, and then at the attribute level— we added rich semantic metadata that enhances their discoverability and interoperability within ArCo and beyond.
