@@ -1,3 +1,8 @@
+---
+layout: default
+title: Methodology  
+---
+
 <h1>Comparison of LLMs</h1>
 We observed the following differences in behavior among the LLMs used:
 
