@@ -303,14 +303,17 @@ From the three answers, ChatGPT’s suggestion was selected because:
 
 Following this model, we created RDF triples that associate each trombone (Uhlmann and Cesare) with these three properties, enriching their metadata in the KG.
 These triples were also tested and validated through <a href="https://yasgui.org/">YASGUI</a>, ensuring that the structure conforms to the expected ArCo ontology standards.
-Uhlmann’s triple:
+
+<ul>
+<li>Uhlmann’s triple:</li>
 
 <img src="./assets/images/img40.png" alt="img40">
 
-Cesare’s triple:
+<li>Cesare’s triple:</li>
 
 <img src="./assets/images/img41.png" alt="img41">
 
+</ul>
 
 By linking both trombones to Hornbostel-Sachs classifications—first at the class level, and then at the attribute level— we added rich semantic metadata that enhances their discoverability and interoperability within ArCo and beyond.
 This step showcases a best practice in cultural heritage data enrichment, combining:
