@@ -5,7 +5,7 @@ title: Methodology
 
 <h1>Conclusion</h1>
 
-This project aimed to explore and enrich the <a href="http://wit.istc.cnr.it/arco">ArCo Knowledge Graph</a> by identifying and addressing gaps in its representation of musical instruments, with a focus on the trombone. Using SPARQL queries, we discovered that certain culturally and historically relevant instruments—such as the trombone—were missing from specific classes like <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">MusicHeritage</a> and <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a>. 
+This project aimed to explore and enrich the <a href="http://wit.istc.cnr.it/arco">ArCo Knowledge Graph</a> by identifying and addressing gaps in its representation of musical instruments, with a focus on the trombone. Using <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> queries, we discovered that certain culturally and historically relevant instruments—such as the trombone—were missing from specific classes like <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">MusicHeritage</a> and <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a>. 
 This absence highlighted an opportunity to contribute to the semantic representation of Italian cultural heritage through Linked Open Data.
 We selected two case-study instruments —the trombones of <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Leopold Uhlmann</a> and <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare</a>— and enriched their RDF descriptions by:
 
