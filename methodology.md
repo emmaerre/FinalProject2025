@@ -296,7 +296,7 @@ From the three answers, ChatGPT’s suggestion was selected because:
 
 <ul>
   <li>It aligned more closely with ArCo’s formal ontology</li>
-  <li>t included properties that exist within the ArCo schema</li>
+  <li>It included properties that exist within the ArCo schema</li>
 </ul>
 
 <h3>RDF Triples: Adding Hornbostel-Sachs Metadata</h3>
