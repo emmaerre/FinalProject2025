@@ -268,14 +268,16 @@ We created two RDF triples to directly associate each trombone with the Hornbost
 
 These were validated using <a href="https://yasgui.org/">YASGUI</a>, and the results showed correctly formed triples linking each instrument to the classification system. 
 
-<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Uhlmann’s trombone</a>:
+<ul>
+<li><a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Uhlmann’s trombone</a>:</li>
 
 <img src="./assets/images/img35.png" alt="img35">
 
-<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Cesare's trombone</a>:
+<li><a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Cesare's trombone</a>:</li>
 
 <img src="./assets/images/img36.png" alt="img36">
-
+ </ul>
+ 
 <h3>Enriching with Descriptive Properties: Chain-of-Thought LLM Prompting</h3>
 
 To go further, we asked three LLMs (<a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a>, <a href="https://gemini.google.com/app?hl=it">Gemini</a>, <a href="https://www.deepseek.com/en">DeepSeek</a>) how we could enrich the existing connections. Using a chain-of-thought prompting strategy, we elicited detailed suggestions for further properties related to the Hornbostel-Sachs class.
