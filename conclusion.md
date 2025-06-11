@@ -20,3 +20,9 @@ We selected two case-study instruments —the trombones of <a href="https://dati
 </ul>
 
 To achieve these tasks, we combined structured <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> querying with the use of <a href="https://en.wikipedia.org/wiki/Large_language_model">Large Language Models</a> (LLMs) to generate RDF triples and suggest semantic relationships. We applied three prompting strategies—zero-shot, few-shot, and chain-of-thought—and experimented with three different LLMs: <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a>, <a href="https://gemini.google.com/app?hl=it">Gemini</a>, and <a href="https://www.deepseek.com/en">DeepSeek</a>.
+
+
+This project demonstrated how the combined use of <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> querying, knowledge graph ontology exploration, and <a href="https://en.wikipedia.org/wiki/Large_language_model">LLM</a>-driven knowledge generation can identify and address semantic gaps in cultural heritage datasets. It also highlighted some of the current limitations in both KGs and <a href="https://en.wikipedia.org/wiki/Large_language_model">LLMs</a>—especially in cases where certain real-world entities were not represented and could not be automatically integrated.
+Overall, while <a href="https://en.wikipedia.org/wiki/Large_language_model">LLMs</a> offer useful support for enrichment and discovery, the process still relies heavily on human judgment and domain knowledge to ensure meaningful and accurate results.
+
+
