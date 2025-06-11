@@ -32,11 +32,11 @@ We applied a variety of prompting techniques—including zero-shot, few-shot, an
    * Zero-shot prompting for idea discovery
    * Chain-of-Thought (CoT) prompting for structured reasoning
 *	[ArCo Ontology](https://dati.beniculturali.it/lode/extract?lang=it&url=https://raw.githubusercontent.com/ICCD-MiBACT/ArCo/master/ArCo-release/ontologie/arco/arco.owl)
-*	[GitHub](https://github.com/))
+*	[GitHub](https://github.com/)
 
 ## Case Studies
 
-We enriched two trombones -one by Ruggero Cesare, the other by Leopold Uhlmann— both underrepresented in the original KG structure.
+We enriched two trombones -one by Ruggero Cesare, the other by Leopold Uhlmann- both underrepresented in the original KG structure.
 
 * [Ruggero Cesare’s Trombone](https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html)
 
