@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Methodology  
+title: Methodology and Use of LLMs 
 ---
 
 # Methodology and Use of LLMs
