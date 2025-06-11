@@ -34,6 +34,7 @@ Finally, we enhanced the semantic metadata by associating the trombones with the
   <button onclick="showStep('step2')">Step 2</button>
   <button onclick="showStep('step3')">Step 3</button>
   <button onclick="showStep('step4')">Step 4</button>
+  <button onclick="showStep('Comparison_of_LLMs')">Comparison of LLMs</button>
 </div>
 
 
