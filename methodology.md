@@ -45,7 +45,7 @@ Finally, we enhanced the semantic metadata by associating the trombones with the
 
 <h3>Initial query - listing musical instrument</h3>
 
-Our first <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> query aimed to retrieve all distinct musical instruments classified under the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class, along with their labels:
+Our first <a href="https://dati.cultura.gov.it/sparql">SPARQL</a> query aimed to retrieve all distinct musical instruments classified under the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class, along with their labels, in ascending order:
 
 <img src="./assets/images/img1.png" alt="img1">
 
@@ -54,7 +54,7 @@ This query provided us with a general overview of the musical instruments curren
 <h3>Identifying a gap - missing instrument</h3>
 
 We then formulated a second query to verify whether three specific instruments —trombone, trumpet (“tromba”), and violin (“violino”)— were present in the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class. 
-The query used FILTER, REGEX, UNION, and ORDER BY clauses to search for multiple terms simultaneously:
+The query used FILTER and REGEX to match instruments’ names flexibly, UNION to combine different search conditions, and ORDER BY to sort the results for easier interpretation. 
 
 <img src="./assets/images/img2.png" alt="img2">
 
@@ -84,14 +84,18 @@ However, when we queried the more general class <a href="https://w3id.org/arco/o
 
 Among the results, we selected two specific trombones as case studies for enrichment:
 
-•	<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare’s trombone</a> (slide trombone / trombone a coulisse):
+<ol> 
+  
+<li> <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare’s trombone</a> (slide trombone / trombone a coulisse):</li>
 
 <img src="./assets/images/img9.png" alt="img9">
 
-•	<a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Leopold Uhlmann’s trombone</a> (slide trombone / trombone a coulisse):
+<li><a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556890.html">Leopold Uhlmann’s trombone</a> (slide trombone / trombone a coulisse):</li>
+
 
 <img src="./assets/images/img10.png" alt="img10">
- 
+
+</ol>
   </p>
 </div>
 
@@ -102,7 +106,7 @@ Among the results, we selected two specific trombones as case studies for enrich
 
  <h3>Gap confirmation and enrichment proposal</h3>
 
- <h4>• Using CONSTRUCT Sparql</h4>
+ <h4>• Using CONSTRUCT SPARQL</h4>
 
 We verified that these instruments —despite clearly being trombones— were not classified under <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a>. This confirmed the presence of a semantic and structural gap in the ontology.
 
