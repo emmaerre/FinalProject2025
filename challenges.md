@@ -6,7 +6,6 @@ title: Challenges
 # Challenges  
 
 - ## Identifying meaningful gaps and enrichment possibilities
-
 One of the first challenges was identifying a meaningful gap in the <a href="http://wit.istc.cnr.it/arco">ArCo</a> Knowledge Graph that could be enriched in a valid and relevant way. This required analyzing the existing data and understanding the structure and limits of the <a href="http://wit.istc.cnr.it/arco/lode/extract?lang=en&url=https://raw.githubusercontent.com/ICCD-MiBACT/ArCo/master/ArCo-release/ontologie/arco/arco.owl">ArCo ontology</a>. We needed to ensure that any proposed enrichment was supported by the available vocabulary and aligned with its domain logic. In some cases, even when interesting insights emerged—such as references to family members of instrument makers—we could not formalize them due to missing ontological connections. This process highlighted the importance of treating the ontology not just as a technical tool, but as a guide for what knowledge can be represented, and how. 
 
 - ## Ontological Alignment
