@@ -170,7 +170,7 @@ To further enhance the knowledge graph, we investigated technical construction c
 
 Based on the LLM-generated suggestions, we manually verified which of the proposed techniques were present in <a href="http://wit.istc.cnr.it/arco">ArCo</a> via SPARQL queries. 
 
-<img src="./assets/images/img19.png" alt="img19">
+<img src="./assets/images/tab.png" alt="tab">
 
 Among the construction techniques for trombones suggested by <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a>, we selected two that are commonly used for any kind of trombone: welding (saldatura) and coating (rivestimento). We decided to create RDF triples to link <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Cesare’s trombone</a> to these two techniques.
 We made the following query to search the "saldatura” entity in the denotative description "<a href="https://dati.beniculturali.it/lodview-arco/ontology/denotative-description/TechnicalCharacteristic.html">technical characteristics</a>”.
