@@ -331,8 +331,8 @@ This step showcases a best practice in cultural heritage data enrichment, combin
 
 
 
-<div id="Comparison of LLMs" class="step-content" style="display:none;">
-  <h2>Step 4: Comparison of LLMs</h2>
+<div id="Comparison_of_LLMs" class="step-content" style="display:none;">
+  <h2> Comparison of LLMs</h2>
   <p>
 
 We noticed that <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> and <a href="https://gemini.google.com/app?hl=it">Gemini</a> tend to provide similar answers in both content and structure. In a few cases, <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> proved to be more aligned with our needs and with the notions existing in the <a href="http://wit.istc.cnr.it/arco">ArCo</a> ontology.
