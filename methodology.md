@@ -329,6 +329,20 @@ This step showcases a best practice in cultural heritage data enrichment, combin
 </div>
 
 
+
+
+<div id="Comparison of LLMs" class="step-content" style="display:none;">
+  <h2>Step 4: Comparison of LLMs</h2>
+  <p>
+
+We noticed that <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> and <a href="https://gemini.google.com/app?hl=it">Gemini</a> tend to provide similar answers in both content and structure. In a few cases, <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> proved to be more aligned with our needs and with the notions existing in the <a href="http://wit.istc.cnr.it/arco">ArCo</a> ontology.
+We found the most significant difference in <a href="https://www.deepseek.com/en">DeepSeek</a>, which stands out for the length of its answers, often providing unrequested information, and for corrections or false solutions. 
+Ultimately, the responses were consistent across models and most effective when using the few-shot prompting technique. <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> emerged as the most insightful <a href="https://en.wikipedia.org/wiki/Large_language_model">LLM</a> for identifying valuable enrichment paths in the <a href="http://wit.istc.cnr.it/arco">ArCo</a> KG, particularly when using chain-of-thought and few-shot prompting. In conclusion, using multiple models provided a useful comparative perspective and reinforced the importance of prompt engineering and critical evaluation of <a href="https://en.wikipedia.org/wiki/Large_language_model">LLM</a> -generated content.
+
+</p>
+</div>
+
+
 <script>
 function showStep(id) {
   document.querySelectorAll('.step-content').forEach(el => el.style.display = 'none');
