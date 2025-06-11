@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Methodology  
+title: Conclusion  
 ---
 
 <h1>Conclusion</h1>
