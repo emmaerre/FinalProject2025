@@ -54,7 +54,7 @@ This query provided us with a general overview of the musical instruments curren
 <h3>Identifying a gap - missing instrument</h3>
 
 We then formulated a second query to verify whether three specific instruments —trombone, trumpet (“tromba”), and violin (“violino”)— were present in the <a href="https://w3id.org/arco/ontology/arco/MusicHeritage">arco:MusicHeritage</a> class. 
-The query used FILTER and REGEX to match instruments’ names flexibly, UNION to combine different search conditions, and ORDER BY to sort the results for easier interpretation. 
+The query used FILTER and REGEX to match instrument names flexibly, UNION to combine different search conditions, and ORDER BY to sort the results for easier interpretation. 
 
 <img src="./assets/images/img2.png" alt="img2">
 
