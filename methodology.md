@@ -231,7 +231,7 @@ Using a zero-shot prompting approach, we asked <a href="https://chatgpt.com/g/g-
 
 To check for the presence of these individuals in <a href="http://wit.istc.cnr.it/arco">ArCo</a>, we designed the following query using the keyword OPTIONAL to also capture partial or incomplete records:
 
-<img src="./assets/images/ph.png" alt="ph">
+<img src="./assets/images/ph.jpg" alt="ph">
 
 <h4>Results and limitations</h4>
 
