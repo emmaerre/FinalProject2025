@@ -223,7 +223,7 @@ We aimed to verify whether other members of the Uhlmann family (besides Leopold)
 
 <h4>Zero-Shot Prompting with LLMs</h4>
 
-Using a zero-shot prompting approach, we asked <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> if there were other musical instrument makers from the Uhlmann family. The LLM listed a few names, such as Carl Uhlmann and Johann Uhlmann, based on its general knowledge base. However, this information alone was not sufficient—we needed to validate it against the ArCo knowledge graph. 
+Using a zero-shot prompting approach, we asked <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> if there were other musical instrument makers from the Uhlmann family. The LLM listed a few names, such as Jakob, Joseph, and Johann Uhlmann, based on its general knowledge base. However, this information alone was not sufficient—we needed to validate it against the ArCo knowledge graph. 
 
 <img src="./assets/images/img28.png" alt="img28">
 
@@ -231,7 +231,7 @@ Using a zero-shot prompting approach, we asked <a href="https://chatgpt.com/g/g-
 
 To check for the presence of these individuals in <a href="http://wit.istc.cnr.it/arco">ArCo</a>, we designed the following query using the keyword OPTIONAL to also capture partial or incomplete records:
 
-<img src="./assets/images/img31.png" alt="img31">
+<img src="./assets/images/ph.png" alt="ph">
 
 <h4>Results and limitations</h4>
 
