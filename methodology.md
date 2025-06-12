@@ -157,7 +157,7 @@ Each LLM was asked to generate a triple linking the resource <https://w3id.org/a
 The responses were consistent across models, validating the effectiveness of few-shot prompting for this kind of structured output.
 We used the queries suggested by these LLMs and we inserted one on <a href="https://yasgui.org/">YASGUI</a>:
 
-<img src="./assets/images/img17.png" alt="img17">
+<img src="./assets/images/17.jpg" alt="17">
 
 In conclusion, we were able to fill the two gaps that we detected: in the first case, we filled it using the CONSTRUCT clause on SPARQL, while in the second case, we used the support of LLMs. In both cases, the RDF triples were correct.
 
@@ -194,7 +194,7 @@ This query returned several entries, among which we selected the generic "<a hre
 
 We created an RDF triple to associate the "<a href="https://dati.beniculturali.it/lodview-arco/resource/TechnicalCharacteristic/saldatura.html">saldatura</a>" technique with <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare’s trombone</a>:
 
-<img src="./assets/images/img23.png" alt="img23">
+<img src="./assets/images/23.jpg" alt="23">
 
 The triple ensures that "<a href="https://dati.beniculturali.it/lodview-arco/resource/TechnicalCharacteristic/saldatura.html">saldatura</a>" is now displayed under the "material or technique" section of the trombone’s ArCo entry.
 
@@ -214,7 +214,7 @@ From this query, we selected the generic "<a href="https://dati.beniculturali.it
 
 We created another triple linking "<a href="https://dati.beniculturali.it/lodview-arco/resource/TechnicalCharacteristic/rivestimento.html">rivestimento</a>" to <a href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1500556869.html">Ruggero Cesare’s trombone</a>, similarly enhancing the descriptive detail under its "material or technique" field. 
 
-<img src="./assets/images/img27.png" alt="img27">
+<img src="./assets/images/27.jpg" alt="27">
 
 <h3>Investigating the Uhlmann Family</h3>
 
