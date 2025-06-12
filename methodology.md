@@ -116,7 +116,7 @@ To address this, we proposed RDF triples to link these resources explicitly to t
 
 Using <a href="https://yasgui.org/">YASGUI</a> and the clause CONSTRUCT on SPARQL, we obtained this RDF triple to connect Cesare’s trombone to the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">MusicalInstrumentClassification</a>:
 
-<img src="./assets/images/img12.png" alt="img12">
+<img src="./assets/images/12.png" alt="12">
 
 <h4>•	Using LLMs</h4>
 
