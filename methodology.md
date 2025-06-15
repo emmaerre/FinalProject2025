@@ -171,7 +171,7 @@ In conclusion, we were able to fill the two gaps that we detected: in the first 
 
 <h3>Enriching ArCo with technical construction techniques</h3>
 
-To further enhance the knowledge graph, we investigated technical construction characteristics relevant to trombones, such as the materials or fabrication techniques involved. This step involved zero-shot prompting (asking <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> directly for possible construction techniques without any example).
+To further enhance the knowledge graph, we investigated technical construction techniques relevant to trombones, such as the materials or fabrication techniques involved. This step involved zero-shot prompting (asking <a href="https://chatgpt.com/g/g-8i7WASBxj-home">ChatGPT</a> directly for possible construction techniques without any example).
 
 Based on the LLM-generated suggestions, we manually verified which of the proposed techniques were present in <a href="http://wit.istc.cnr.it/arco">ArCo</a> via SPARQL queries. 
 
