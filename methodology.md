@@ -60,7 +60,7 @@ The query used FILTER and REGEX to match instrument names flexibly, UNION to com
 
 The results showed that "tromba" and "violino" were both present, but "trombone" returned no matches, indicating a potential gap in the knowledge graph.
 
-To confirm this absence, we executed a focused query that searched only for the term trombone in the same class:
+To confirm this absence, we executed a focused query that searched only for the term "trombone" in the same class:
 
 <img src="./assets/images/img3.png" alt="img3">
 
@@ -70,7 +70,7 @@ As expected, the result table was empty, further confirming that the trombone is
 
 <h3>Further investigation - other classes</h3>
 
-We expanded our search to see if the term trombone appeared in other relevant classes. A query on the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a> also returned no results:
+We expanded our search to see if the term "trombone" appeared in other relevant classes. A query on the class <a href="https://w3id.org/arco/ontology/arco/MusicalInstrumentClassification">arco:MusicalInstrumentClassification</a> also returned no results:
 
 <img src="./assets/images/img5.png" alt="img5">
 
@@ -218,7 +218,7 @@ We created another triple linking "<a href="https://dati.beniculturali.it/lodvie
 
 <h3>Investigating the Uhlmann Family</h3>
 
-To further investigate the historical and cultural relevance of the Uhlmann family, we consulted external sources such as <a href="http://www.williampetit.com/16/cor-viennois-uhlmann/vienna-horn-uhlmann.htm">William Petit’s documentation</a>, which highlight the important role played by this family in the 19th-century Viennese music scene, particularly in the field of instrument manufacturing.
+To further investigate the historical and cultural relevance of the Uhlmann family, we consulted external sources, such as <a href="http://www.williampetit.com/16/cor-viennois-uhlmann/vienna-horn-uhlmann.htm">William Petit’s documentation</a>, which highlight the important role played by this family in the 19th-century Viennese music scene, particularly in the field of instrument manufacturing.
 We aimed to verify whether other members of the Uhlmann family (besides Leopold) were represented within the ArCo knowledge graph.
 
 <h4>Zero-Shot Prompting with LLMs</h4>
