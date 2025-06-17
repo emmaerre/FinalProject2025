@@ -235,7 +235,7 @@ To check for the presence of these individuals in <a href="http://wit.istc.cnr.i
 
 <h4>Results and limitations</h4>
 
-The query returned only four instances, all of which referred to Leopold Uhlmann. No other members of the Uhlmann family appeared in the ArCo dataset. 
+The query returned only four instances, in which no other members of the Uhlmann family appeared in the ArCo dataset besides Leopold Uhlmann.
 Consequently:
 
 <ul>
